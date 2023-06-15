@@ -21,7 +21,7 @@ public class Ejecutor2 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
             
-        for (int i=0; i<4; i++) {
+        for (int i=0; i<listado.length; i++) {
             
             System.out.println("ESTUDIANTE "+(i+1));
             System.out.println("Ingrese nombre");
@@ -44,7 +44,7 @@ public class Ejecutor2 {
             listado[i] = aux;
         }
         
-        for (int i=0; i<4; i++) {
+        for (int i=0; i<listado.length; i++) {
             System.out.printf("ESTUDIANTE [%d]\n%s\n",i+1,listado[i]);
         }
     }
