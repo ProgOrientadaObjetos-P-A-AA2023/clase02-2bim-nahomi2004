@@ -21,7 +21,7 @@ public class EstudiantePresencial extends Estudiante{
     
     public EstudiantePresencial(String n, String a, String iden, int ed, 
             double costo, int creditos){
-        super(iden, ed);
+        super(n,a,iden, ed);
         establecerNombresEstudiante(n);
         apellidosEstudiante = a.toLowerCase();
         costoCredito = costo;
