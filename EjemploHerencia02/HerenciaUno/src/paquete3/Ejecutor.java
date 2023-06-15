@@ -23,7 +23,13 @@ public class Ejecutor {
                 apellido, identificacion, edad);
         
         System.out.println(estDistancia);
-                
         
+        
+        nombre = "UWU";
+        apellido = "2.0";
+        identificacion = "CASE143";
+        edad = 14;
+        EstudiantePresencial ePresencial = new EstudiantePresencial(nombre, apellido, identificacion, edad);
+        System.out.println(ePresencial);
     }
 }
